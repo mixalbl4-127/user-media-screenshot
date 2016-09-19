@@ -1,4 +1,4 @@
-#user-media-screenshot v1.0
+#user-media-screenshot v1.0.1
 
 Usage:
 ```javascript
