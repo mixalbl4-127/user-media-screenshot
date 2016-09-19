@@ -1,7 +1,8 @@
-user-media-screenshot v1.0
+#user-media-screenshot v1.0
 
-Example:
+Usage:
+```javascript
 var getScreen = require('user-media-screenshot');
 getScreen(function(image){
   $('#my-image').attr('src', image);
-});
+});```
