@@ -15,9 +15,6 @@
     "screenshot",
     "UserMedia"
   ],
-  "peerDependencies": {
-    "electron": "^1.3.4"
-  },
   "author": "mixal_bl4",
   "license": "ISC"
 }
