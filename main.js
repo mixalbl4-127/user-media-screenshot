@@ -22,7 +22,7 @@ function getScreen(callback) {
             var ctx = canvas.getContext('2d');
             // Draw video on canvas
             ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-            
+
             if (_this.callback) {
                 // Save screenshot to jpg - base64
                 _this.callback(canvas.toDataURL('image/jpeg'));
@@ -50,7 +50,7 @@ function getScreen(callback) {
         // console.log(sources);
         for (let i = 0; i < sources.length; ++i) {
             // Filter: main screen
-            if (sources[i].name === "Entire screen") {
+            if (sources[i].name === "Entire screen" || sources[i].name === "Screen 1") {
                 navigator.webkitGetUserMedia({
                     audio: false,
                     video: {
